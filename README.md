@@ -25,7 +25,7 @@ Ensures that database operations are executed as a single transaction. If any op
 # Serializers
 The serializers transform the models into JSON format for the API responses and validate incoming data.
 # ViewSets
-The viewsets manage the logic for handling the API requests, including creating, retrieving, and filtering the data.
+The viewsets manage the logic for handling the API requests, including creating, retrieving, and filtering the data. ***(for optimization we can use methods select_related or prefetch related)***
 
 # Date Filtering
 Library: django.db.models
