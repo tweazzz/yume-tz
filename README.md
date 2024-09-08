@@ -22,6 +22,11 @@ Methods Used: transaction.atomic()
 
 Ensures that database operations are executed as a single transaction. If any operation fails, the transaction is rolled back
 
+# Serializers
+The serializers transform the models into JSON format for the API responses and validate incoming data.
+# ViewSets
+The viewsets manage the logic for handling the API requests, including creating, retrieving, and filtering the data.
+
 # Date Filtering
 Library: django.db.models
 Methods Used: filter()
