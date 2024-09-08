@@ -33,4 +33,8 @@ Library: django.db.models
 Methods Used:annotate() Sum()
 
 
-можно доработать если это боевой проект(Кэширование запросов особенно для статистики или часто запрашиваемых данных) или же генерация отчетов в виде (CSV или PDF), уведомлении и.т.д
+Further improvements can be made if this is a production project:
+
+Caching Requests: Implement caching, especially for statistics or frequently requested data, to enhance performance.
+Report Generation: Add functionality for generating reports in formats such as CSV or PDF.
+Notifications: Implement notification systems, if needed.
