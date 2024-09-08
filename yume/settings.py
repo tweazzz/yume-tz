@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'apps.tz',
     'rest_framework',
+    'drf_yasg',
 
     
     'django.contrib.admin',
